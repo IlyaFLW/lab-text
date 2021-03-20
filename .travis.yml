@@ -6,8 +6,8 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../Lab11
+  - cmake ../lab-text
   - make -j
-  - ./test/MP9_TESTS
+  - ./test/MP2_TESTS
 notifications:
   email: false
